@@ -187,7 +187,6 @@
 
 - (void)changeTaskWithisSuspend:(BOOL)suspend{
     DLURLSessionOperation *operation = [[DLDownloadMagager sharedManager].operationDictionary objectForKey:self.downloadModel.urlModel.url];
-    //NSLog(@"kkkkkkkkkkkkkkkkk%ld",[DLDownloadMagager sharedManager].queue.operationCount);
     if (suspend) {
         if (operation.task.state != NSURLSessionTaskStateSuspended) {
             [operation.task cancelByProducingResumeData:^(NSData * _Nullable resumeData) {
