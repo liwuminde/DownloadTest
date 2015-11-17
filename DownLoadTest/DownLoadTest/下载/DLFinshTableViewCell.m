@@ -34,7 +34,7 @@
     
     self.urlNameLabel = [[UILabel alloc] init];
     self.urlNameLabel.textColor = [UIColor colorWithRed:100/255.0 green:149/255.0 blue:237/255.0 alpha:1];
-    self.urlNameLabel.text = @"泰坦尼克号";
+    self.urlNameLabel.text = @"泰坦尼克号11";
     [backgroundView addSubview:self.urlNameLabel];
     
     UILabel *totalSizeLabel = [[UILabel alloc] init];
