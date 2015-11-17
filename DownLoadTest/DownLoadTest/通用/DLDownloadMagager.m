@@ -99,9 +99,6 @@
             if (self.delegate && [self.delegate respondsToSelector:@selector(didFinishDownloadTaskWithOperation:)]) {
                 [self.delegate downloadError:task.taskDescription error:error];
             }
-//            DLURLSessionOperation *operation = [[DLDownloadMagager sharedManager].operationDictionary objectForKey:task.taskDescription];
-//            [operation cancel];
-//            [operation completeOperation];
         }
     }
 }
