@@ -343,7 +343,8 @@
 				TargetAttributes = {
 					CB272E101BD9E02E000C56AF = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = MLEHW495BP;
+						DevelopmentTeam = RMZQ762TDJ;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -548,12 +549,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RMZQ762TDJ;
 				INFOPLIST_FILE = DownLoadTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yanxiu.DownLoadTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.coailiaoba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "58294912-5dd9-4060-94e4-a28ed0550724";
+				PROVISIONING_PROFILE_SPECIFIER = coailiaoba_dev;
 			};
 			name = Debug;
 		};
@@ -564,13 +567,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = RMZQ762TDJ;
 				INFOPLIST_FILE = DownLoadTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yanxiu.DownLoadTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.coailiaoba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d88ce1bd-8c58-44c1-828a-34022c0f585b";
+				PROVISIONING_PROFILE_SPECIFIER = adHoc_pro;
 			};
 			name = Release;
 		};
